@@ -1,1 +1,1 @@
-"# SampleProjectLayout" 
+# SampleProjectLayout
