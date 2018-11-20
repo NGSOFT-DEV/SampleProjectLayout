@@ -1,0 +1,71 @@
+Mon protocol
+
+1. Init
+=======
+Init is a two phased process, where we first acknoledge connection, and then initiate channel one by one
+
+1.1 R2B_InitConnection
+----------------------
+
+R                        B
+|  R2B_InitConnection    |
+|----------------------->|
+|  B2R_InitConnectionAck |
+|<-----------------------|
+
+Params
+TBD
+TODO add struct
+
+1.2 R2B_InitChannel 
+-------------------
+
+R                        B
+|  R2B_InitChannel       |
+|----------------------->|
+|  B2R_InitChannelAck    |
+|<-----------------------|
+
+Params
+Repeat the request for each channel you want to initiate.
+(Initated state is kept in R)
+TODO add struct
+
+2. B2R_Error
+============
+R                        B
+|       B2R_Error        |
+|<-----------------------|
+
+Params
+Error message (errorCode, data)
+
+TODO add struct
+
+3. B2R_Monitor
+==============
+R                        B
+|       B2R_Monitor      |
+|<-----------------------|
+|       R2B_MonitorAck   |
+|----------------------->|
+
+Params 
+
+TODO add struct
+
+
+
+
+
+
+
+
+
+TEMPLATE
+========
+
+R                   B
+|                   |
+|-------------------|
+|                   |
