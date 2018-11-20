@@ -1,4 +1,6 @@
 {
     "httpPort" : 8082,
-    "directoryToServe": "public"
+    "directoryToServe": "public",
+    "username": "admin",
+    "password": "Ngsoft123"
 }
