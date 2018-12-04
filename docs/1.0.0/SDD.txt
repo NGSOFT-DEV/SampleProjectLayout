@@ -1,0 +1,283 @@
+
+Project: The Watson Game
+Function:  (Client, Server, Database)
+Subsystem:
+Author:
+Date:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+1	Introduction	3
+1.1	Goals and objectives	3
+1.2	Statement of scope	3
+1.3	Software context	3
+1.4	Major constraints	3
+2	Data design	3
+2.1	Internal software data structure	3
+2.2	Global data structure	4
+2.3	Temporary data structure	4
+2.4	Database descriptio	4
+3	Architectural and component-level design	4
+3.1	Program Structure	4
+3.1.1	Architecture diagram	4
+3.1.2	Alternatives	4
+3.2	Description for Component n	4
+3.2.1	Processing narrative (PSPEC) for component n	5
+3.2.2	Component n interface description.	5
+3.2.3	Component n processing detail	5
+3.3	Software Interface Description	5
+3.3.1	External machine interfaces	5
+3.3.2	External system interfaces	6
+3.3.3	Human interface	6
+4	User interface design	6
+4.1	Description of the user interface	6
+4.1.1	Screen images	6
+4.1.2	Objects and actions	6
+4.2	Interface design rules	6
+4.3	Components available	6
+4.4	UIDS description	7
+5	Restrictions, limitations, and constraints	7
+6	Testing Issues	7
+6.1	Classes of tests	7
+6.2	Expected software response	7
+6.3	Performance bounds	7
+6.4	Identification of critical components	7
+7	Appendices	8
+7.1	Requirements traceability matrix	8
+7.2	Packaging and installation issues	8
+7.3	Design metrics to be used	8
+7.4	Supplementary information (as required)	8
+
+ 
+SOFTWARE DESIGN SPECIFICATION
+
+1	 Introduction
+
+This section provides an overview of the entire design document. This
+document describes all data, architectural, interface and
+component-level design for the software.
+
+1.1	 Goals and objectives
+
+      Overall goals and software objectives are described.
+
+1.2	Statement of scope
+
+      A description of the software is presented. Major inputs,
+      processing functionality, and outputs are described without regard
+      to implementation detail.
+
+1.3	 Software context
+
+      The software is placed in a business or product line context.
+      Strategic issues relevant to context are discussed. The intent is
+      for the reader to understand the 'big picture'.
+
+1.4	Major constraints
+
+      Any business or product line constraints that will impact he
+      manner in which the software is to be specified, designed,
+      implemented or tested are noted here.
+
+             
+
+2	Data design
+
+A description of all data structures including internal, global, and
+temporary data structures.
+
+2.1	Internal software data structure
+
+      Data structures that are passed among components the software are
+      described.
+
+2.2	Global data structure
+
+      Data structured that are available to major portions of the
+      architecture are described.
+
+2.3	Temporary data structure
+
+      Files created for interim use are described.
+
+2.4	 Database description
+
+      Database(s) created as part of the application is(are) described.
+
+       
+
+3	 Architectural and component-level design
+
+A description of the program architecture is presented.
+
+3.1	Program Structure
+
+      A detailed description the program structure chosen for the
+      application is presented.
+
+3.1.1	     Architecture diagram
+
+            A pictorial representation of the architecture is presented.
+
+3.1.2	     Alternatives
+
+            A discussion of other architectural styles considered is
+            presented. Reasons for the selection of the style presented
+            in Section3.1.1 are provided.
+
+3.2	Description for Component n
+
+      A detailed description of each software component contained within
+      the architecture is presented. Section 3.2 is repeated for each of
+      n components.
+
+3.2.1	   Processing narrative (PSPEC) for component n
+
+            A processing narrative for component n is presented.
+
+3.2.2	    Component n interface description.
+
+            A detailed description of the input and output interfaces
+            for the component is presented.
+
+3.2.3	Component n processing detail
+
+            A detailed algorithmic description for each component is
+            presented. Section 3.2.3 is repeated for each of n components.
+
+3.2.3.1	Interface description
+
+3.2.3.2	Algorithmic model (e.g., PDL)
+
+3.2.3.3	Restrictions/limitations
+
+3.2.3.4	Local data structures
+
+3.2.3.5	Performance issues3.2.3.6 Design constraints
+
+3.3	      Software Interface Description
+
+      The software's interface(s) to the outside world are described.
+
+3.3.1	    External machine interfaces
+
+            Interfaces to other machines (computers or devices) are
+            described.
+
+3.3.2	    External system interfaces
+
+            Interfaces to other systems, products, or networks are
+            described.
+
+3.3.3	    Human interface
+
+            An overview of any human interfaces to be designed for the
+            software is presented. See Section 4.0 for additional  detail.
+
+4	User interface design
+
+A description of the user interface design of the software is presented.
+
+4.1	Description of the user interface
+
+      A detailed description of user interface including screen images
+      or prototype is presented.
+
+4.1.1	Screen images
+
+            Representation of the interface form the user's point of view.
+
+4.1.2	Objects and actions
+
+            All screen objects and actions are identified.
+
+4.2	 Interface design rules
+
+      Conventions and standards used for designing/implementing the user
+      interface are stated.
+
+4.3	Components available
+
+      GUI components available for implementation are noted.
+
+4.4	      UIDS description
+
+      The user interface development system is described.
+
+       
+
+5	Restrictions, limitations, and constraints
+
+Special design issues which impact the design or implementation of the
+software are noted here.
+
+ 
+
+6	Testing Issues
+
+Test strategy and preliminary test case specification are presented in
+this section.
+
+6.1	Classes of tests
+
+      The types of tests to be conducted are specified, including as
+      much detail as is possible at this stage. Emphasis here is on
+      black-box and white-box testing.
+
+6.2	Expected software response
+
+      The expected results from testing are specified.
+
+6.3	Performance bounds
+
+      Special performance requirements are specified.
+
+6.4	Identification of critical components
+
+      Those components that are critical and demand particular attention
+      during testing are identified.
+
+       
+
+7	Appendices
+
+Presents information that supplements the design specification.
+
+7.1	Requirements traceability matrix
+
+      A matrix that traces stated components and data structures to
+      software requirements is developed.
+
+7.2	Packaging and installation issues
+
+      Special considerations for software packaging and installation are
+      presented.
+
+7.3	Design metrics to be used
+
+      A description of all design metrics to be used during the design
+      activity is noted here.
+
+7.4	 Supplementary information (as required)
+
+Return to APM Documents <index.html>
+
+
