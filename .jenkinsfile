@@ -1,1 +1,25 @@
-"# SampleProjectLayout" 
+pipeline { 
+    agent any 
+    stages {
+        stage('Build') { 
+            steps { 
+                bat 'echo Build'
+            }
+        }
+        stage('Test'){
+            steps {
+                bat 'echo test'
+            }
+        }
+        stage('Deploy TEST') {
+            steps {
+                bat 'echo Deploy test'
+            }
+        }
+                stage('Deploy PROD') {
+            steps {
+                bat 'echo Deploy PROD'
+            }
+        }
+    }
+}
