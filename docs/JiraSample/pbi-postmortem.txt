@@ -1,0 +1,22 @@
+Postmorted format - ready for jira:
+
+h1. timeline
+Tell me what happened and ~when (no need to go to any time resolution, justtell what happened when?)
+# time what happened
+
+h1. Detection - who detected how and what?
+
+h1. buisness impact
+- What was the actual buisness impact? 
+
+h1. root cause
+- Try to figure out the root cause of the problem.
+- Use the 5 whys - Ask why why why why why?
+- Don't blame but do ask "You did a mistake, but we all built the system where your stupid mistake becomes a disaster."
+- Always ask how do you feel about the discovery.
+- When doing this with a team - try to guide the team by asking open questions.
+
+h1. Action items
+- Who need to do what by when? e.g. add tests, add monitoring, ignore it, document how to handle, ask for a  refactor, etc...
+- You made the mistake, but we all took part in building this system, where your mistake causes a disaster
+- If you were the man behind the bug, What do we need to do in order to prevent such a volnurability
